@@ -1,0 +1,9 @@
+Sample	Unique Reads	Duplicate Reads
+Arapaima_gigas_R1	5000.0	0.0
+Arapaima_gigas_R2	5000.0	0.0
+Bothrops_jararaca_R1	5000.0	0.0
+Bothrops_jararaca_R2	5000.0	0.0
+Manacus_manacus_R1	5000.0	0.0
+Manacus_manacus_R2	5000.0	0.0
+Podocnemis_expansa_R1	1000.0	0.0
+Podocnemis_expansa_R2	1000.0	0.0

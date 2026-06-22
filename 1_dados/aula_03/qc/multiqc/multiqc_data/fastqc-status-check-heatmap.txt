@@ -1,0 +1,9 @@
+.	Basic Statistics	Per Base Sequence Quality	Per Tile Sequence Quality	Per Sequence Quality Scores	Per Base Sequence Content	Per Sequence GC Content	Per Base N Content	Sequence Length Distribution	Sequence Duplication Levels	Overrepresented Sequences	Adapter Content
+Arapaima_gigas_R1	1	1	1	1	1	1	1	0.5	1	1	1
+Arapaima_gigas_R2	1	1	1	1	1	1	1	0.5	1	1	1
+Bothrops_jararaca_R1	1	0.25	1	0.5	1	1	1	0.5	1	1	0.25
+Bothrops_jararaca_R2	1	0.25	1	0.5	1	1	1	0.5	1	1	0.25
+Manacus_manacus_R1	1	0.25	1	0.5	1	1	1	0.5	1	1	0.5
+Manacus_manacus_R2	1	0.25	1	0.5	1	1	1	0.5	1	1	0.5
+Podocnemis_expansa_R1	1	0.25	1	0.25	1	0.5	1	0.5	1	1	0.25
+Podocnemis_expansa_R2	1	0.25	1	0.25	1	1	1	0.5	1	1	0.25

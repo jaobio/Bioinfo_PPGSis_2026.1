@@ -1,0 +1,7 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:08.501     3M / 873M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 3
+ * 0:00:07.092     3M / 1064M WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:08.746     3M / 1064M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 5
+ * 0:00:49.426     6M / 1017M WARN    General                 (launcher.cpp              : 185)   Your data seems to have high uniform coverage depth. It is strongly recommended to use --isolate option.
+======= Warnings saved to /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/warnings.log

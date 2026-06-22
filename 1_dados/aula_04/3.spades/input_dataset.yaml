@@ -1,0 +1,7 @@
+- "left reads":
+  - "/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/2.seqs_trim/SRR13510367_R1_paired.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/2.seqs_trim/SRR13510367_R2_paired.fastq.gz"
+  "type": "paired-end"

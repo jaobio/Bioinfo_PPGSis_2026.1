@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Arapaima_gigas_R1	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Arapaima_gigas_R1_fastqc.zip
+FastQC	all_sections	Arapaima_gigas_R2	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Arapaima_gigas_R2_fastqc.zip
+FastQC	all_sections	Bothrops_jararaca_R1	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Bothrops_jararaca_R1_fastqc.zip
+FastQC	all_sections	Bothrops_jararaca_R2	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Bothrops_jararaca_R2_fastqc.zip
+FastQC	all_sections	Manacus_manacus_R1	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Manacus_manacus_R1_fastqc.zip
+FastQC	all_sections	Manacus_manacus_R2	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Manacus_manacus_R2_fastqc.zip
+FastQC	all_sections	Podocnemis_expansa_R1	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Podocnemis_expansa_R1_fastqc.zip
+FastQC	all_sections	Podocnemis_expansa_R2	/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_03/qc/fastqc/Podocnemis_expansa_R2_fastqc.zip

@@ -1,0 +1,40 @@
+­---
+max read length: 251
+nomerge max read length: 251
+average read length: 227.135
+average coverage: 1990.53
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R1_paired.fastq00.0_0.cor.fastq.gz'
+    right reads:
+      - '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R2_paired.fastq00.0_0.cor.fastq.gz'
+    single reads:
+      - '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R_unpaired00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 251
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/.bin_reads/INFO_0'
+        paired read prefix: '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/.bin_reads/paired_0'
+        merged read prefix: '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/.bin_reads/merged_0'
+        single read prefix: '/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/.bin_reads/single_0'
+        chunk num:       2
+      single reads mapped: false
+      library index:   0
+      number of reads: 288533
+      total nucleotides: 65535991
+      read cloud info:
+        fragment length distribution: {  }
+...

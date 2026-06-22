@@ -1,0 +1,9 @@
+- "left reads":
+  - "/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R1_paired.fastq00.0_0.cor.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R2_paired.fastq00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/SRR13510367_R_unpaired00.0_0.cor.fastq.gz"
+  "type": "paired-end"

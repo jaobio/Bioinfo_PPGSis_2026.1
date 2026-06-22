@@ -1,0 +1,194 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_3D9IERTG721023OT4A5O20LWR65Q8UER
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_NJLK0GDO2VWUU70AZ4LV0NK00526FP15
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_n1wm8jnk
+  job_uuid: SPAdes_Read_error_correction_7VBCYF3XOBSZ2ES5YJTSUWGONC9IOQCR
+  mpi_support: false
+  output_files:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/corrected.yaml
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /home/vscode/miniforge3/envs/bioinfo/share/spades/spades_pipeline/supplemetary/compress_all.py
+  - --input_file
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /home/vscode/miniforge3/envs/bioinfo/share/spades
+  - --max_threads
+  - '16'
+  - --output_dir
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_corrected_reads_compression_26M38D18IUTNMMN5BT82ERMJ64W18P36
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_WE6JC4RJ7X2RIZRT6UHAPLBGZOMCP4N9
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_B54QBSMGZ5DVSAKSV8AO4EJV7QSDUPFJ
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  job_uuid: SPAdes_K21_YS9Q6Q6E66WMHL2JOELE1LGSVRXCKB5Q
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  job_uuid: SPAdes_K33_6F5V1RXT04K3JY0XQEZLCRPH4DZDVND3
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  job_uuid: SPAdes_K55_YNQXC8A0IH7K2AJOBTIBYNVIRQ3SD6J4
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k55
+- STAGE: K77
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  job_uuid: SPAdes_K77_TQCJCJRHWMXEA34ZMVMAC6L6H5OIUD0B
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k77
+- STAGE: K99
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K99/configs/config.info
+  config_dir: K99
+  del_after: []
+  job_uuid: SPAdes_K99_4SW32J6OFP5JXYNMNZYT0R41XBV1OG3S
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k99
+- STAGE: K127
+  args:
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/configs/config.info
+  config_dir: K127
+  del_after: []
+  job_uuid: SPAdes_K127_P9OPBBRT67URFFHVZRM1L6SBX15YC378
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/spades-core
+  short_name: k127
+- STAGE: Copy files
+  args:
+  - /home/vscode/miniforge3/envs/bioinfo/share/spades/spades_pipeline/supplemetary/copy_files.py
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/before_rr.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/before_rr.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/assembly_graph_after_simplification.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/assembly_graph_after_simplification.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/final_contigs.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/contigs.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/first_pe_contigs.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/first_pe_contigs.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/strain_graph.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/strain_graph.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/scaffolds.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/scaffolds.fasta
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/scaffolds.paths
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/scaffolds.paths
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/assembly_graph_with_scaffolds.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/assembly_graph_with_scaffolds.gfa
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/assembly_graph.fastg
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/assembly_graph.fastg
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/K127/final_contigs.paths
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_ivz1_gfg
+  job_uuid: SPAdes_Copy_files_LF3K5Z0H44C3LGNCEMHNYZJ93PH2VC5C
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_FB382E14LC4BL4M7ORW2MBBE0EC500D3
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /home/vscode/miniforge3/envs/bioinfo/share/spades/spades_pipeline/supplemetary/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/scaffolds.fasta
+  - --misc_dir
+  - /workspaces/Bioinfo_PPGSis_2026.1/1_dados/1.brutos/aula_04/3.spades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_K4BQT42TQSPOLM31TZ87HS6S49UP5NON
+  mpi_support: false
+  output_files: []
+  path: /home/vscode/miniforge3/envs/bioinfo/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_5Y704I0VWQ4FZYY7W5TTQT2MLTJVMSGK
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

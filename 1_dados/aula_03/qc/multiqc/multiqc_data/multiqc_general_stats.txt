@@ -1,0 +1,9 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+Arapaima_gigas_R1	0.0	49.0	149.7718	150	0.0	0.005
+Arapaima_gigas_R2	0.0	49.0	149.8326	150	0.0	0.005
+Bothrops_jararaca_R1	0.0	50.0	146.8182	150	18.181818181818183	0.005
+Bothrops_jararaca_R2	0.0	50.0	146.5274	150	18.181818181818183	0.005
+Manacus_manacus_R1	0.0	50.0	148.316	150	9.090909090909092	0.005
+Manacus_manacus_R2	0.0	49.0	148.4252	150	9.090909090909092	0.005
+Podocnemis_expansa_R1	0.0	50.0	144.126	150	27.27272727272727	0.001
+Podocnemis_expansa_R2	0.0	49.0	144.858	150	27.27272727272727	0.001
